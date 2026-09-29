@@ -4,4 +4,4 @@ Repository für das Webentwicklung Projekt.
 ## Geplante Features
 - Grundstruktur Hauptseite
 - Erste Tiere anlegen
-- 
+- Ideen für sie Gestaltung Sammeln
