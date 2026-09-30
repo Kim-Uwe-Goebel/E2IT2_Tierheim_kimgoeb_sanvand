@@ -16,3 +16,7 @@ Außerdem soll sie auch viele Informationen zu Tierhaltung enthalten und über R
 - Grundstruktur Hauptseite
 - Erste Tiere anlegen
 - Ideen für die Gestaltung Sammeln
+
+## erledigt am 30.09.2026:
+- Startseite ausgefüllt, Bilder und Links hinzugefügt
+- Auf allen Unterseiten den "zurück" Button hinzugefügt und die Seitenbeschreibungen ergänzt
