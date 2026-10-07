@@ -48,6 +48,10 @@ Z.B.:
 
 Fertig ist der Button der "noch" nichts macht. 
 
+## erledigt am 30.09.2026:
+- Startseite ausgefüllt, Bilder und Links hinzugefügt
+- Auf allen Unterseiten den "zurück" Button hinzugefügt und die Seitenbeschreibungen ergänzt
+
 ## Woche 2: 05.10 - 11.10.2026
 Gemeinsam:
 - Hauptseite mit CSS überarbeiten
@@ -60,8 +64,3 @@ Sanne:
 Kim: 
 - unsere Tiere -> Bilder und Beschreibungen angefügt.
 - Button beschreibung im README.md
-=======
-## erledigt am 30.09.2026:
-- Startseite ausgefüllt, Bilder und Links hinzugefügt
-- Auf allen Unterseiten den "zurück" Button hinzugefügt und die Seitenbeschreibungen ergänzt
->>>>>>> 63fbf1637ced2c8a3e16816da27e34c084388fdd

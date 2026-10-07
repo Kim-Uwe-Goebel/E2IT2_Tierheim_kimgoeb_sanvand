@@ -17,3 +17,9 @@ h3{
 p{
     font-family: sans-serif;
 }
+
+.class{
+    font-size: larger;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
