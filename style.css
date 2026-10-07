@@ -1,0 +1,19 @@
+h1 {
+    color: white;
+    background-color: rgb(68, 68, 139);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    color: black;
+}
+
+h3{
+    color: black;
+    background-color: lightblue;
+    font-size: large;
+}
+
+p{
+    font-family: sans-serif;
+}
