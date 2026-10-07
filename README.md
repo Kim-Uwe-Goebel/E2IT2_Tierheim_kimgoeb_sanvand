@@ -17,6 +17,7 @@ Außerdem soll sie auch viele Informationen zu Tierhaltung enthalten und über R
 - Erste Tiere anlegen
 - Ideen für die Gestaltung Sammeln
 
+<<<<<<< HEAD
 ## Nicht im unterricht behandelte Themen:
 1. Button: ein Button ist ein feld auf unseren Seiten, der einen Link oder ähnliches Öffnet. mit Hilfe von ihm wollen wir unsere Links etwas schöner darstellen und das Kontaktformular zugänglicher machen. Die "welches Tier passt zu mir" seite soll auch auswählbare optionen bekommen die man über den Button auswählt.
 Da ich diese Woche alleine bin habe ich den Button nur mal auf unser "Kontaktformular" gepackt. 
@@ -59,3 +60,8 @@ Sanne:
 Kim: 
 - unsere Tiere -> Bilder und Beschreibungen angefügt.
 - Button beschreibung im README.md
+=======
+## erledigt am 30.09.2026:
+- Startseite ausgefüllt, Bilder und Links hinzugefügt
+- Auf allen Unterseiten den "zurück" Button hinzugefügt und die Seitenbeschreibungen ergänzt
+>>>>>>> 63fbf1637ced2c8a3e16816da27e34c084388fdd
