@@ -17,7 +17,6 @@ Außerdem soll sie auch viele Informationen zu Tierhaltung enthalten und über R
 - Erste Tiere anlegen
 - Ideen für die Gestaltung Sammeln
 
-<<<<<<< HEAD
 ## Nicht im unterricht behandelte Themen:
 1. Button: ein Button ist ein feld auf unseren Seiten, der einen Link oder ähnliches Öffnet. mit Hilfe von ihm wollen wir unsere Links etwas schöner darstellen und das Kontaktformular zugänglicher machen. Die "welches Tier passt zu mir" seite soll auch auswählbare optionen bekommen die man über den Button auswählt.
 Da ich diese Woche alleine bin habe ich den Button nur mal auf unser "Kontaktformular" gepackt. 
@@ -25,7 +24,7 @@ Da ich diese Woche alleine bin habe ich den Button nur mal auf unser "Kontaktfor
 Ich möchte die seiten gestaltung nicht völlig in die eigene Hand nehmen, da dies unfair gegenüber Sanne wäre. 
 
 Funktionieren tut er wie folgt: 
-Man gibt auf einer .html seite das Wort "Button" ein und drüclt Enter. Daraufhin erscheint: 
+Man gibt auf einer .html seite das Wort "Button" ein und drückt Enter. Daraufhin erscheint: 
 
 <button></button>
 
@@ -53,14 +52,18 @@ Fertig ist der Button der "noch" nichts macht.
 - Auf allen Unterseiten den "zurück" Button hinzugefügt und die Seitenbeschreibungen ergänzt
 
 ## Woche 2: 05.10 - 11.10.2026
-Gemeinsam:
-- Hauptseite mit CSS überarbeiten
-- Seiten aufteilen
-- Tiere überlegen
-- Kontaktformular (Button)
 
 Sanne:
 
 Kim: 
-- unsere Tiere -> Bilder und Beschreibungen angefügt.
-- Button beschreibung im README.md
+- Hauptseite mit CSS überarbeiten
+    - Farbe
+    - Allgemeine überarbeitung für bessere Anschaulichkeit
+- unsere Tiere -> Bilder und Beschreibungen angefügt
+    - Katzen
+    - Hunde
+    - Vögel
+    - "Unsere Tiere" mit CSS überarbeitet
+- Button beschreibung im README.md + einbau auf der index seite
+    - Kontaktformular (Button)
+
