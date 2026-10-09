@@ -59,11 +59,13 @@ Kim:
 - Hauptseite mit CSS überarbeiten
     - Farbe
     - Allgemeine überarbeitung für bessere Anschaulichkeit
+
 - unsere Tiere -> Bilder und Beschreibungen angefügt
     - Katzen
     - Hunde
     - Vögel
     - "Unsere Tiere" mit CSS überarbeitet
+    
 - Button beschreibung im README.md + einbau auf der index seite
     - Kontaktformular (Button)
 
