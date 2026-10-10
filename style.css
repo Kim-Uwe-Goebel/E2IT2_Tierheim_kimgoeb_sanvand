@@ -24,9 +24,16 @@ p{
     font-family: 'Times New Roman', Times, serif;
 }
 
-#beschriftung{
+.beschriftung{
     color: black;
     background-color: lightsalmon;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
+}
+
+#erklaertext{
+    color: blue;
+    background-color: black;
+    font-size: medium;
+    font-family: cursive;
 }
