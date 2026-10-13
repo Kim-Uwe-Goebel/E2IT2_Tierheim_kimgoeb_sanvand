@@ -61,3 +61,7 @@ button:hover{
 button:active{
     background-color: green;
 }
+
+body{
+    background-color: rgb(212, 209, 209);
+}
