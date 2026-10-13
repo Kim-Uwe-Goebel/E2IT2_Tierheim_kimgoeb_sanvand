@@ -53,8 +53,6 @@ Fertig ist der Button der "noch" nichts macht.
 
 ## Woche 2: 05.10 - 11.10.2026
 
-Sanne:
-
 Kim: 
 - Hauptseite mit CSS überarbeiten
     - Farbe
@@ -69,3 +67,7 @@ Kim:
 - Button beschreibung im README.md + einbau auf der index seite
     - Kontaktformular (Button)
 
+## Woche 3: 12.10. - 18.10.2026
+
+Kim: 
+- CSS link und Button designs erstellt

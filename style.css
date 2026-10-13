@@ -37,3 +37,27 @@ p{
     font-size: medium;
     font-family: cursive;
 }
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: orange;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+button:active{
+    background-color: green;
+}
