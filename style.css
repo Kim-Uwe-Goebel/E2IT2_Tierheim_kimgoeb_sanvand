@@ -65,3 +65,8 @@ button:active{
 body{
     background-color: rgb(212, 209, 209);
 }
+
+.index-links{
+    padding: 10px 20px;
+    background-color: white;
+}
