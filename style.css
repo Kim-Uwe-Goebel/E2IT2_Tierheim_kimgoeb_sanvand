@@ -29,6 +29,7 @@ p{
     font-family: 'Times New Roman';
     border: 3px solid lightsalmon;
     margin: 20px;
+    text-align: center;
 }
 
 .beschriftung{
@@ -36,6 +37,7 @@ p{
     background-color: lightsalmon;
     font-size: large;
     font-family: 'Times New Roman';
+    text-align: center;
     padding: 10px;
     border: 10px solid lightblue;
     margin: 10px;
@@ -79,6 +81,7 @@ body{
 
 .index-links{
     padding: 10px 20px;
-    background-color: rgb(185, 156, 101);
+    background-color: rgb(61, 181, 202);
     border: 3px solid black;
 }
+
