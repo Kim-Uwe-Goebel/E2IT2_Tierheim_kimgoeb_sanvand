@@ -74,9 +74,11 @@ button:active{
 
 body{
     background-color: #dedcdc;
+    border: 3px solid rgb(60, 56, 165);
 }
 
 .index-links{
     padding: 10px 20px;
     background-color: rgb(185, 156, 101);
+    border: 3px solid black;
 }

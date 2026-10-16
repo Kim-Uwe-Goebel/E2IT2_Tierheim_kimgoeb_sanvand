@@ -71,3 +71,8 @@ Kim:
 
 Kim: 
 - CSS link und Button designs erstellt
+- Hauptseite und unsere Tiere mit dem neu gelernten überarbeitet
+- CSS seite Farben überarbeitet 
+- Beschreibungs- und Namenstext überarbeitet
+- Rand auf allen seiten eingefügt
+- Links überarbeitet
