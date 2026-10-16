@@ -2,6 +2,11 @@ h1 {
     color: white;
     background-color: rgb(108, 108, 196);
     font-family: 'Courier New', Courier, monospace;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
 
 body{
@@ -21,21 +26,26 @@ p{
 .namen{
     font-size: larger;
     background-color: lightblue;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman';
+    border: 3px solid lightsalmon;
+    margin: 20px;
 }
 
 .beschriftung{
     color: black;
     background-color: lightsalmon;
     font-size: large;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman';
+    padding: 10px;
+    border: 10px solid lightblue;
+    margin: 10px;
 }
 
 #erklaertext{
     color: blue;
     background-color: black;
     font-size: medium;
-    font-family: cursive;
+    font-family: 'cursive';
 }
 
 a:link{
@@ -63,7 +73,7 @@ button:active{
 }
 
 body{
-    background-color: #bfc5db;
+    background-color: #dedcdc;
 }
 
 .index-links{
