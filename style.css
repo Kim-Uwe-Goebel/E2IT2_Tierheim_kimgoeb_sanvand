@@ -1,7 +1,7 @@
 h1 {
     color: white;
     background-color: rgb(108, 108, 196);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman';
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -17,10 +17,12 @@ h3{
     color: black;
     background-color: lightblue;
     font-size: large;
+    margin-left: 3px;
 }
 
 p{
     font-family: sans-serif;
+    margin-left: 5px;
 }
 
 .namen{
@@ -80,8 +82,37 @@ body{
 }
 
 .index-links{
-    padding: 10px 20px;
+    padding: 5px 10px;
     background-color: rgb(61, 181, 202);
     border: 3px solid black;
+    border-radius: 3px;
 }
 
+ul{
+    padding: 10px 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: rgb(61, 181, 202);
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+li{
+    padding: 3px;
+}
+
+li:nth-child(even){
+    color: black;
+}
+
+li:nth-child(odd){
+    color: white;
+}
+
+footer{
+    background-color: rgb(108, 108, 196);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+}

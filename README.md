@@ -65,7 +65,9 @@ Kim:
     - "Unsere Tiere" mit CSS überarbeitet
     
 - Button beschreibung im README.md + einbau auf der index seite
-    - Kontaktformular (Button)
+    - Kontaktformular 
+    - Spenden für Tierheime in deiner Nähe
+    - Interessantes
 
 ## Woche 3: 12.10. - 18.10.2026
 
@@ -76,3 +78,8 @@ Kim:
 - Beschreibungs- und Namenstext überarbeitet
 - Rand auf allen seiten eingefügt
 - Links überarbeitet
+- Liste mit Services die wir anbieten hinzugefügt
+- Diese Liste mit dem neu gelernten überarbeitet
+- Footer hinzugefügt
+- Layout des Footers und der Liste überarbeitet
+- Feinschliff und vereinheitlichung
