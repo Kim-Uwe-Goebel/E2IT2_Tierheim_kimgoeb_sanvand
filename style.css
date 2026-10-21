@@ -79,13 +79,13 @@ button:active{
 
 body{
     background-color: #f7f4ed;
-    border: 3px solid rgb(60, 56, 165);
+    border: 3px solid #2f3432;
 }
 
 .index-links{
     padding: 5px 10px;
     background-color: #db9270;
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 3px;
 }
 
