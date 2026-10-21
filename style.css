@@ -1,6 +1,6 @@
 h1 {
     color: white;
-    background-color: rgb(108, 108, 196);
+    background-color: #3f6654;
     font-family: 'Times New Roman';
     padding-top: 5px;
     padding-bottom: 5px;
@@ -10,12 +10,12 @@ h1 {
 }
 
 body{
-    color: black;
+    color: #2f3432;
 }
 
 h3{
-    color: black;
-    background-color: lightblue;
+    color: #2f3432;
+    background-color: #b7c9a8;
     font-size: large;
     margin-left: 3px;
 }
@@ -27,21 +27,20 @@ p{
 
 .namen{
     font-size: larger;
-    background-color: lightblue;
+    background-color: #88a47c;
     font-family: 'Times New Roman';
-    border: 3px solid lightsalmon;
     margin: 20px;
     text-align: center;
 }
 
 .beschriftung{
-    color: black;
-    background-color: lightsalmon;
+    color: #2f3432;
+    background-color: #f7f4ed;
     font-size: large;
     font-family: 'Times New Roman';
     text-align: center;
     padding: 10px;
-    border: 10px solid lightblue;
+    border: 10px solid #b7c9a8;
     margin: 10px;
 }
 
@@ -53,7 +52,8 @@ p{
 }
 
 a:link{
-    color: blue;
+    color: #2f3432;
+    text-decoration: none;
 }
 
 a:visited{
@@ -61,7 +61,7 @@ a:visited{
 }
 
 a:hover{
-    color: red;
+    background-color: #88a47c;
 }
 
 a:active{
@@ -77,13 +77,13 @@ button:active{
 }
 
 body{
-    background-color: #dedcdc;
+    background-color: #f7f4ed;
     border: 3px solid rgb(60, 56, 165);
 }
 
 .index-links{
     padding: 5px 10px;
-    background-color: rgb(61, 181, 202);
+    background-color: #db9270;
     border: 3px solid black;
     border-radius: 3px;
 }
@@ -92,8 +92,8 @@ ul{
     padding: 10px 20px;
     margin-top: 5px;
     margin-left: 5px;
-    background-color: rgb(61, 181, 202);
-    border: 5px solid black;
+    background-color: #88a47c;
+    border: 2px solid black;
     border-radius: 5px;
 }
 
@@ -102,7 +102,7 @@ li{
 }
 
 li:nth-child(even){
-    color: black;
+    color: #2f3432;
 }
 
 li:nth-child(odd){
@@ -110,7 +110,7 @@ li:nth-child(odd){
 }
 
 footer{
-    background-color: rgb(108, 108, 196);
+    background-color: #3f6654;
     color: white;
     text-align: center;
     padding: 10px;

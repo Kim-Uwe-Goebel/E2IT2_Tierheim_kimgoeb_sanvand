@@ -12,6 +12,13 @@ Außerdem soll sie auch viele Informationen zu Tierhaltung enthalten und über R
 - "Welches Tier passt zu mir?" mit einem interaktiven Matching-System
 - "Tierschutz und Qualzucht" mit wichtigen Informationen (vielleicht noch ein Formular zum Mitglied werden?)
 
+## Aufteilung der Seiten
+- Startseite: Kim & Sanne
+- UnsereTiere: Kim
+- Welches Tier passt zu mir:
+- Interessiert:
+- Informationen zu Tierschutz und Qualzucht: Sanne
+
 ## Geplante Features
 - Grundstruktur Hauptseite
 - Erste Tiere anlegen
@@ -83,3 +90,10 @@ Kim:
 - Footer hinzugefügt
 - Layout des Footers und der Liste überarbeitet
 - Feinschliff und vereinheitlichung
+
+## Woche 4: 19.10. - 25.10.2026
+
+Kim:
+
+Sanne:
+- Farbdesign angepasst
