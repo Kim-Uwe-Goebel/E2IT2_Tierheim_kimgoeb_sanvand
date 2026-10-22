@@ -58,11 +58,11 @@ a:link{
 }
 
 a:visited{
-    color: purple;
+    color: rgb(94, 91, 94);
 }
 
 a:hover{
-    background-color: #88a47c;
+    background-color: #9eaf90;
 }
 
 a:active{
@@ -74,7 +74,7 @@ button:hover{
 }
 
 button:active{
-    background-color: green;
+    background-color: #b7c9a8;
 }
 
 body{
@@ -84,7 +84,7 @@ body{
 
 .index-links{
     padding: 5px 10px;
-    background-color: #db9270;
+    background-color: #f0b397;
     border: 2px solid black;
     border-radius: 3px;
 }
@@ -116,4 +116,9 @@ footer{
     text-align: center;
     padding: 10px;
     margin-top: 15px;
+}
+.Infotext{
+    border:2px solid #2f3432;
+    padding: 1;
+    margin: 1;
 }

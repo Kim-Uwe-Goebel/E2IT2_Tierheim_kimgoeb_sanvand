@@ -97,3 +97,4 @@ Kim:
 
 Sanne:
 - Farbdesign angepasst
+- Auf allen Seiten Footer hinzugefügt
