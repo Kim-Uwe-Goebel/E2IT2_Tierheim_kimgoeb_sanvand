@@ -98,3 +98,4 @@ Kim:
 Sanne:
 - Farbdesign angepasst
 - Auf allen Seiten Footer hinzugefügt
+- Strukturtags hinzugefügt auf: Tierschutz&Qualzucht, index
