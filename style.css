@@ -46,8 +46,8 @@ p{
 }
 
 #erklaertext{
-    color: blue;
-    background-color: black;
+    color: white;
+    background-color: #3f6654;
     font-size: medium;
     font-family: 'cursive';
 }
@@ -115,7 +115,7 @@ ul{
     margin-top: 5px;
     margin-left: 5px;
     background-color: #d9b48f;
-    border: 2px solid black;
+    border: 2px solid #2f3432;
     border-radius: 5px;
 }
 

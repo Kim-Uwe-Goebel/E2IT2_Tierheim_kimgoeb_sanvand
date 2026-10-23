@@ -99,3 +99,5 @@ Sanne:
 - Farbdesign angepasst
 - Auf allen Seiten Footer hinzugefügt
 - Strukturtags hinzugefügt auf: Tierschutz&Qualzucht, index
+- tierschutz.css erstellt und auf Tierschutzsseite verlinkt
+- Seite "Tierschutz und Qualzuchten" ergänzt
