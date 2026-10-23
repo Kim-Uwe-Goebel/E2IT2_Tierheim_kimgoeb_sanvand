@@ -52,48 +52,69 @@ p{
     font-family: 'cursive';
 }
 
+
+/* Allgemeine Links */
+
 a:link{
     color: #2f3432;
     text-decoration: none;
 }
 
 a:visited{
-    color: rgb(94, 91, 94);
+    color: #2f3432;
 }
 
-a:hover{
-    background-color: #9eaf90;
-}
 
 a:active{
     color: orange;
 }
 
+
+/* Buttons */
+
 button:hover{
-    background-color: blue;
+    background-color: #3f6654;
 }
 
 button:active{
     background-color: #b7c9a8;
 }
 
+
 body{
     background-color: #f7f4ed;
     border: 3px solid #2f3432;
 }
 
-.index-links{
-    padding: 5px 10px;
-    background-color: #f0b397;
-    border: 2px solid black;
-    border-radius: 3px;
+
+/* Navigation Startseite */
+
+nav{
+    background-color: #b7c9a8;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
 }
+
+nav a {
+    color:#2f3432;
+    padding: 8px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #9eaf90;
+    color: white;
+}
+
+
 
 ul{
     padding: 10px 20px;
     margin-top: 5px;
     margin-left: 5px;
-    background-color: #88a47c;
+    background-color: #d9b48f;
     border: 2px solid black;
     border-radius: 5px;
 }
