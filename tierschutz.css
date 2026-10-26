@@ -7,3 +7,15 @@
 .tierschutz-helfen p {
     margin-bottom: 20px;
 }
+
+.info-link:link {
+    color: #3f6654;
+    text-decoration: underline;
+}
+.info-link:visited {
+    color: #3f6654;
+}
+
+.info-link:hover {
+    background-color: #b7c9a8;
+}
