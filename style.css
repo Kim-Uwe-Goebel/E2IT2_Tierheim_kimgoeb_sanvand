@@ -72,8 +72,17 @@ a:active{
 
 /* Buttons */
 
+button{
+    background-color: #f0b397;
+    color: #2f3432;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #2f3432;
+
+}
+
 button:hover{
-    background-color: #3f6654;
+    background-color: #88a47c;
 }
 
 button:active{
