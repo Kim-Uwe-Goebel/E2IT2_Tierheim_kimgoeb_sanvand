@@ -91,12 +91,15 @@ Kim:
 - Layout des Footers und der Liste überarbeitet
 - Feinschliff und vereinheitlichung
 
-## Woche 4: 19.10. - 25.10.2026
+## Woche 4 und 5: 19.10. - 01.11.2026
 
 Kim:
 - Unsere tiere überarbeitet 
 - Fehler korrigiert
 - Neu gelerntes eingefügt
+- Struktur auf unsere Tiere angepasst
+- verlinkung zu Tierschutz und Qualzucht eingebaut
+- Überschrifen und neue Texte eingebaut und angepasst
 
 Sanne:
 - Farbdesign angepasst
