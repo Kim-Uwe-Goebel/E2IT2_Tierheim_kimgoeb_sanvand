@@ -7,7 +7,6 @@ h1 {
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-
 }
 
 body{
@@ -214,4 +213,19 @@ main a {
     background-color: #b7c9a8;
     padding: 8px;
     margin: 5px;
+}
+
+.unsere-tiere .kontakt-link {
+    color: #2f3432;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.unsere-tiere .kontakt-link:hover {
+    background-color: #9eaf90;
+    color: white;
+}
+
+.unsere-tiere .kontakt-link:active {
+    background-color: #b7c9a8;
 }

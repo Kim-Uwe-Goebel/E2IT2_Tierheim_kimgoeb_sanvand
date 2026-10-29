@@ -100,6 +100,7 @@ Kim:
 - Struktur auf unsere Tiere angepasst
 - verlinkung zu Tierschutz und Qualzucht eingebaut
 - Überschrifen und neue Texte eingebaut und angepasst
+- Buttons angepasst
 
 Sanne:
 - Farbdesign angepasst
