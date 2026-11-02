@@ -108,3 +108,9 @@ Sanne:
 - Strukturtags hinzugefügt auf: Tierschutz&Qualzucht, index
 - tierschutz.css erstellt und auf Tierschutzsseite verlinkt
 - Seite "Tierschutz und Qualzuchten" ergänzt
+  # Ideen für nächstes mal:
+  - genauere Infos zu den Tieren, Herkunft mit Karte oder Geburtsdatum usw
+  - Interessante Infos
+  - Kreative Innovationen/Ideen
+  - 2 leere Seiten ergänzen
+  - andere Tierheim-Seiten als Inspo nehmen, was gehört noch dazu?
