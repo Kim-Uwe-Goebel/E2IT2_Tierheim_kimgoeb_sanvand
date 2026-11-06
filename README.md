@@ -96,6 +96,9 @@ position: absolute positionieret ein Element unabhängig vom normalen Seitenaufb
 Die Position wird dabei anhand des nächsten übergeordneten Elements bestimmt, 
 das position: "relative", "absolute" oder "fixed" besitzt. 
 
+
+4. z-index
+
 ## erledigt am 30.09.2026:
 - Startseite ausgefüllt, Bilder und Links hinzugefügt
 - Auf allen Unterseiten den "zurück" Button hinzugefügt und die Seitenbeschreibungen ergänzt
@@ -162,6 +165,8 @@ Sanne:
 gemeinsam:
 - Grid auf index.html eingebaut
 - Öffnungszeiten hinzugefügt auf Startseite (ausklappbar)
+- Karte hinzugefügt auf Startseite
+- Grid mit Öffnungszeiten und Karte gemacht
 
 Kim:
 - Grid auf Unsere Tiere hinzugefügt
