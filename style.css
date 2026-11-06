@@ -362,8 +362,6 @@ main a {
 
 /* Öffnungszeiten und Standort Nebeneinander */
 
-/* Grid Öffnungszeiten und Standort */
-
 .standort-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
