@@ -1,0 +1,46 @@
+.vermittlung-grid {
+    display: grid;    
+    grid-template-columns: 1fr 1fr 1fr;    
+    grid-template-areas: "balu mila flocke";
+    gap: 25px;
+}
+
+.balu {
+    grid-area: balu;
+}
+
+.mila {
+    grid-area: mila;
+}
+
+.flocke {
+    grid-area: flocke;
+}
+
+
+/* Gestaltung der Tierkarten */
+
+.vermittlung-tier {
+    background-color: #e5ebdf;
+    border: 2px solid #b7c9a8;
+    padding: 15px;
+}
+
+/* Bilder einheitlich gestalten */
+
+.vermittlung-tier img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    background-color: #e5ebdf;
+}
+
+/* Namen hervorheben */
+
+.vermittlung-tier h3 {
+    background-color: #88a47c;
+    text-align: center;
+    padding: 8px;
+}
+
+
