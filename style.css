@@ -293,7 +293,7 @@ main a {
  .park {
     position: absolute;
     background-color: #b8d5ac;
-    width: 120px;
+    width: 300px;
     height: 90px;
     top: 20px;
     left: 20px;
@@ -319,8 +319,8 @@ main a {
     position: absolute;
     background-color: #d9b48f;
     border: 2px solid #2f3432;
-    width: 45px;
-    height: 35px;
+    width: 70px;
+    height: 60px;
 }
 
 .haus1 {
