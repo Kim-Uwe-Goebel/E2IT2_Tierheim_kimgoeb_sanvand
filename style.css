@@ -243,9 +243,10 @@ main a {
 
 .ueber-uns-bilder{
     grid-area: bilder;
+    text-align: center;
 }
 
 .ueber-uns-bilder img {
-    height: 200px;
+    height: 220px;
     max-width: 100%;
 }

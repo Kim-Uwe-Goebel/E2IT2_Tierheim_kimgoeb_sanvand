@@ -117,6 +117,9 @@ Sanne:
 
 ## Woche 6:
 
+gemeinsam:
+- Grid auf index.html eingebaut
+
 Kim:
 - Grid auf Unsere Tiere hinzugefügt
 
