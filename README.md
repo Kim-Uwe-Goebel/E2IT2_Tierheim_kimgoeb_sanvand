@@ -68,15 +68,17 @@ Dieses stellt die sichtbare Überschrift bezihungsweise den klickbaren Bereich d
 Der Textinnerhalb von <summary> ist zunächst für den Benutzer sichtbar. 
 Erst durch einen Klick darauf wird der restliche Inhalt des <details> - Elements eingeblendet. 
 
-Wenn in der <details> funktion noch open eingebaut wird: <details open> ist der Ausklapbare Teil beim betreten der Seite automatisch schon geöffnet.
-
 Bsp.:
 - vor dem Klicken:
 >klickbarer Titel
 
 - nach dem Klicken:
 >klickbarer Titel
-Inhalt, der ein- und ausgeblendet werden soll 
+Inhalt, der ein- und ausgeblendet werden soll.
+
+Wenn bei der <details> funktion noch ein "open" eingebaut wird: <details open> -ist der
+ein- bzw ausblendbare teil beim betreten der Seite automatisch geöffnet. 
+
 
 ## erledigt am 30.09.2026:
 - Startseite ausgefüllt, Bilder und Links hinzugefügt
@@ -149,4 +151,3 @@ Kim:
 
 Sanne:
 - Grid auf der Tierschutz&Qualzucht-Seite hinzugefügt
-
