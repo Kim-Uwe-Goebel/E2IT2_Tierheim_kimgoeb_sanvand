@@ -64,9 +64,9 @@ Dadurch bleibt unsere Webseite übersichtlicher und anschaulicher,
 da zusätzliche Informationen nur bei Bedarf angezeigt werden. 
 
 Innerhalb des <details> wird das Element <summary> verwendet. 
-Dieses stellt die sichtbare Überschrift bezihungsweise den klickbaren Bereich dar. 
-Der Textinnerhalb von <summary> ist zunächst für den Benutzer sichtbar. 
-Erst durch einen Klick darauf wird der restliche Inhalt des <details> - Elements eingeblendet. 
+Dieses stellt die sichtbare Überschrift beziehungsweise den klickbaren Bereich dar. 
+Der Text innerhalb von <summary> ist zunächst für den Benutzer sichtbar. 
+Erst durch einen Klick darauf wird der restliche Inhalt des <details> - Element eingeblendet. 
 
 Bsp.:
 - vor dem Klicken:
