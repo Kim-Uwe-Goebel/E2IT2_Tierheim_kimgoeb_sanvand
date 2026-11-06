@@ -96,6 +96,20 @@ position: absolute positionieret ein Element unabhängig vom normalen Seitenaufb
 Die Position wird dabei anhand des nächsten übergeordneten Elements bestimmt, 
 das position: "relative", "absolute" oder "fixed" besitzt. 
 
+Bsp: (CSS)
+.container{
+    position: relative;
+}
+
+.box{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+- In diesem Beispiel dient ".container" als Bezugspunkt. Das Element ".box" wird 10 Pixel vom oberen und 10 Pixel vom rehcten Rand des Containers entfernt positioniert. 
+
+Oft werden "position: relative" und "position: absolute" gemeinsam verwendet. Das übergeordnete Element erhält "position: relative", damit sich das untergeordnete Element mit "position: absolute" innerhalb dieses Bereichs positionieren kann. Dadurch lassen sich beispeilsweise Buttons, Icons, Texte oder Bilder an einer ganz bestimmten Stelle platzieren. 
 
 4. z-index
 
