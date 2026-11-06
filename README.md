@@ -114,3 +114,10 @@ Sanne:
   - Kreative Innovationen/Ideen
   - 2 leere Seiten ergänzen
   - andere Tierheim-Seiten als Inspo nehmen, was gehört noch dazu?
+
+## Woche 6:
+
+Kim:
+
+Sanne:
+- Grid auf der Tierschutz&Qualzucht-Seite hinzugefügt

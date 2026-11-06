@@ -25,4 +25,102 @@
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: #e5ebdf;
+}
+
+
+.tierschutz-info {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+        "ueberschrift ueberschrift"
+        "text bild";
+    gap: 25px;
+}
+
+.tierschutz-info h2 {
+    grid-area: ueberschrift;
+}
+
+.tierschutz-text {
+    grid-area: text;
+}
+
+.tierschutz-bild {
+    grid-area: bild;
+}
+
+
+.qualzucht-bilder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "bulldogge dackel katze";
+    gap: 25px;
+}
+
+.bulldogge{
+    grid-area: bulldogge;
+}
+
+.dackel{grid-area: dackel;}
+
+.katze{
+    grid-area: katze;
+}
+
+.qualzucht-tier{
+    text-align: center;
+}
+
+.qualzucht-tier img {
+    width: 350px;
+    height: 250px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.helfen-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "adoptieren spenden"
+        "ehrenamt patenschaften"
+        "verantwortung bild";
+    gap: 25px;
+}
+
+.adoptieren {
+    grid-area: adoptieren;
+}
+
+.spenden {
+    grid-area: spenden;
+}
+
+.ehrenamt {
+    grid-area: ehrenamt;
+}
+
+.patenschaften {
+    grid-area: patenschaften;
+}
+
+.verantwortung {
+    grid-area: verantwortung;
+}
+
+.helfen-bild {
+    grid-area: bild;
+}
+
+.helfen-grid > div {
+    background-color: #e5ebdf;
+    padding: 20px;
+    border: 1px solid #b5c8a6;
+}
+
+.helfen-bild img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
 }
