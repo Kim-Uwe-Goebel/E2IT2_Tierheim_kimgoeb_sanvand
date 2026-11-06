@@ -25,22 +25,25 @@ Außerdem soll sie auch viele Informationen zu Tierhaltung enthalten und über R
 - Ideen für die Gestaltung Sammeln
 
 ## Nicht im unterricht behandelte Themen:
-1. Button: ein Button ist ein feld auf unseren Seiten, der einen Link oder ähnliches Öffnet. mit Hilfe von ihm wollen wir unsere Links etwas schöner darstellen und das Kontaktformular zugänglicher machen. Die "welches Tier passt zu mir" seite soll auch auswählbare optionen bekommen die man über den Button auswählt.
-Da ich diese Woche alleine bin habe ich den Button nur mal auf unser "Kontaktformular" gepackt. 
-
-Ich möchte die seiten gestaltung nicht völlig in die eigene Hand nehmen, da dies unfair gegenüber Sanne wäre. 
+1. Button: 
+Ein Button ist ein feld auf unseren Seiten, der einen Link oder ähnliches Öffnet. 
+Mit Hilfe von ihm wollen wir unsere Links etwas schöner darstellen und das Kontaktformular 
+zugänglicher machen. Die "welches Tier passt zu mir" seite soll auch auswählbare optionen 
+bekommen die man über den Button auswählt.
 
 Funktionieren tut er wie folgt: 
 Man gibt auf einer .html seite das Wort "Button" ein und drückt Enter. Daraufhin erscheint: 
 
 <button></button>
 
-Zwischen dem ersten n von "Button" und >, muss nun ein type gewählt werden. Es gibt 3 möglichkeiten die nun gewählt werden können:
+Zwischen dem ersten n von "Button" und >, muss nun ein type gewählt werden. 
+Es gibt 3 möglichkeiten die nun gewählt werden können:
 
 button - keine vordefinierte funktion, reine Klickfläche
 reset - setzt alle Felder der Seite wieder auf den Startwert
 submit - sendet die eingegebenen Daten an eine selbstwählbare Zieladresse
--> da wir "submit" sicherlich für unser Kontaktformular verwenden werden erkläre ich das nun mal noch nicht ausführlicher.
+-> da wir "submit" sicherlich für unser Kontaktformular verwenden werden 
+erkläre ich das nun mal noch nicht ausführlicher.
 
 Nun haben wir z.B.:
 
@@ -53,6 +56,25 @@ Z.B.:
 <button type="button">Kontaktformular</button>
 
 Fertig ist der Button der "noch" nichts macht. 
+
+2. <details> und <summary>: 
+Das Element <details> ermöglicht es, Informationen ein und auszuklappen, 
+ohne dass zusätzliches JavaScript benötigt wird. 
+Dadurch bleibt unsere Webseite übersichtlicher und anschaulicher, 
+da zusätzliche Informationen nur bei Bedarf angezeigt werden. 
+
+Innerhalb des <details> wird das Element <summary> verwendet. 
+Dieses stellt die sichtbare Überschrift bezihungsweise den klickbaren Bereich dar. 
+Der Textinnerhalb von <summary> ist zunächst für den Benutzer sichtbar. 
+Erst durch einen Klick darauf wird der restliche Inhalt des <details> - Elements eingeblendet. 
+
+Bsp.:
+- vor dem Klicken:
+>klickbarer Titel
+
+- nach dem Klicken:
+>klickbarer Titel
+Inhalt, der ein- und ausgeblendet werden soll 
 
 ## erledigt am 30.09.2026:
 - Startseite ausgefüllt, Bilder und Links hinzugefügt
@@ -125,3 +147,4 @@ Kim:
 
 Sanne:
 - Grid auf der Tierschutz&Qualzucht-Seite hinzugefügt
+
