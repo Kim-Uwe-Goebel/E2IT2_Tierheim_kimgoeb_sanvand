@@ -229,3 +229,23 @@ main a {
 .unsere-tiere .kontakt-link:active {
     background-color: #b7c9a8;
 }
+
+.ueber-uns-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "text bilder";
+    gap: 20px;
+}
+
+.ueber-uns-text{
+    grid-area: text;
+}
+
+.ueber-uns-bilder{
+    grid-area: bilder;
+}
+
+.ueber-uns-bilder img {
+    height: 200px;
+    max-width: 100%;
+}
