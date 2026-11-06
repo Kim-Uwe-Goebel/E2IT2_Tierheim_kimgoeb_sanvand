@@ -118,6 +118,7 @@ Sanne:
 ## Woche 6:
 
 Kim:
+- Grid auf Unsere Tiere hinzugefügt
 
 Sanne:
 - Grid auf der Tierschutz&Qualzucht-Seite hinzugefügt

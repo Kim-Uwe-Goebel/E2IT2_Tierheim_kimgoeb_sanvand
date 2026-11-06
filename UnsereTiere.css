@@ -1,0 +1,30 @@
+.Verantwortung-Grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+        "anschaffung pflege"
+        "kosten zuhause";
+    gap: 10px;
+}
+
+.anschaffung{
+    grid-area: anschaffung;
+}
+
+.pflege{
+    grid-area: pflege;
+}
+
+.kosten{
+    grid-area: kosten;
+}
+
+.zuhause{
+    grid-area: zuhause;
+}
+
+.Verantwortung-Grid > div{
+    background-color: #e5ebdf;
+    padding: 20px;
+    border: 1px solid #b5c8a6;
+}
