@@ -250,3 +250,30 @@ main a {
     height: 220px;
     max-width: 100%;
 }
+
+ .oeffnungszeiten {
+    background-color: #f7f4ed;
+    padding: 20px;
+ }
+
+ .oeffnungszeiten details {
+    background-color: #e5e5e5;
+    border: 2px solid #b7c9a8;
+    padding: 15px;
+    margin-bottom: 15px;
+ }
+
+ .oeffnungszeiten summary {
+    background-color: #b7c9a8;
+    padding: 10px;
+    font-size: large;
+    cursor: pointer;
+ }
+
+ .oeffnungszeiten details p {
+    margin-left: 15px;
+ }
+
+ .oeffnungszeiten summary:hover {
+    background-color: #88a47c;
+ }
