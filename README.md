@@ -25,7 +25,7 @@ Außerdem soll sie auch viele Informationen zu Tierhaltung enthalten und über R
 - Ideen für die Gestaltung Sammeln
 
 ## Nicht im unterricht behandelte Themen:
-1. Button: 
+### 1. Button: 
 Ein Button ist ein feld auf unseren Seiten, der einen Link oder ähnliches Öffnet. 
 Mit Hilfe von ihm wollen wir unsere Links etwas schöner darstellen und das Kontaktformular 
 zugänglicher machen. Die "welches Tier passt zu mir" seite soll auch auswählbare optionen 
@@ -34,7 +34,7 @@ bekommen die man über den Button auswählt.
 Funktionieren tut er wie folgt: 
 Man gibt auf einer .html seite das Wort "Button" ein und drückt Enter. Daraufhin erscheint: 
 
-<button></button>
+```<button></button>```
 
 Zwischen dem ersten n von "Button" und >, muss nun ein type gewählt werden. 
 Es gibt 3 möglichkeiten die nun gewählt werden können:
@@ -47,49 +47,55 @@ erkläre ich das nun mal noch nicht ausführlicher.
 
 Nun haben wir z.B.:
 
-<button type="button"></button>
+```<button type="button"></button>```
 
 Jetzt können wir noch eine Beschriftung auf unseren Button packen. Dafür schreiben wir den ausgewählten Text zwischen das > nach "button" und vor das < vor dem /. 
 
 Z.B.:
 
-<button type="button">Kontaktformular</button>
+```<button type="button">Kontaktformular</button>```
 
 Fertig ist der Button der "noch" nichts macht. 
 
-2. <details> und <summary>: 
-Das Element <details> ermöglicht es, Informationen ein und auszuklappen, 
+### 2. ```<details>``` und ```<summary>```: 
+Das Element ```<details>``` ermöglicht es, Informationen ein und auszuklappen, 
 ohne dass zusätzliches JavaScript benötigt wird. 
 Dadurch bleibt unsere Webseite übersichtlicher und anschaulicher, 
 da zusätzliche Informationen nur bei Bedarf angezeigt werden. 
 
-Innerhalb des <details> wird das Element <summary> verwendet. 
+Innerhalb des ```<details>``` wird das Element ```<summary>``` verwendet. 
 Dieses stellt die sichtbare Überschrift beziehungsweise den klickbaren Bereich dar. 
-Der Text innerhalb von <summary> ist zunächst für den Benutzer sichtbar. 
-Erst durch einen Klick darauf wird der restliche Inhalt des <details> - Element eingeblendet. 
+Der Text innerhalb von ```<summary>``` ist zunächst für den Benutzer sichtbar. 
+Erst durch einen Klick darauf wird der restliche Inhalt des ```<details>``` - Element eingeblendet. 
 
 Bsp.:
 - vor dem Klicken:
->klickbarer Titel
+
+"> klickbarer Titel" 
 
 - nach dem Klicken:
->klickbarer Titel
+
+"v klickbarer Titel"
+
 Inhalt, der ein- und ausgeblendet werden soll.
 
-Wenn bei der <details> funktion noch ein "open" eingebaut wird: <details open> -ist der
+Wenn bei der ```<details>``` funktion noch ein "open" eingebaut wird: ```<details open>``` -ist der
 ein- bzw ausblendbare teil beim betreten der Seite automatisch geöffnet. 
 
-3. position: relative und position: absolute:
+### 3. position: relative und position: absolute:
 Diese CSS-Eigenschaften werden verwendet, um Elemente gezielt auf einer Webseite zu positionieren. 
 
 Position: relative legt fest, dass sich ein Element weiterhin an seiner normalen Position im Seitenaufbau befindet. 
-Zusätzlich kann es mit den Eigenschaften "top", "right", "bottom" oder "left" von seiner ursprünglichen Position verschoben werden.
+Zusätzlich kann es mit den Eigenschaften "top", "right", "bottom" oder "left" 
+von seiner ursprünglichen Position verschoben werden.
 
 Bsp.: (CSS)
+```css
 .box{
     position: relative;
     left: 20px;
 }
+```
 - Das Element wird dabei 20 Pixel nach rechts verschoben, bleibt aber weiterhin Teil des normalen Seitenlayouts.
 
 position: absolute positionieret ein Element unabhängig vom normalen Seitenaufbau.
@@ -97,6 +103,7 @@ Die Position wird dabei anhand des nächsten übergeordneten Elements bestimmt,
 das position: "relative", "absolute" oder "fixed" besitzt. 
 
 Bsp: (CSS)
+```css
 .container{
     position: relative;
 }
@@ -106,12 +113,45 @@ Bsp: (CSS)
     top: 10px;
     right: 10px;
 }
+```
 
-- In diesem Beispiel dient ".container" als Bezugspunkt. Das Element ".box" wird 10 Pixel vom oberen und 10 Pixel vom rehcten Rand des Containers entfernt positioniert. 
+- In diesem Beispiel dient ".container" als Bezugspunkt. 
+Das Element ".box" wird 10 Pixel vom oberen und 10 Pixel vom rehcten Rand des Containers entfernt positioniert. 
 
-Oft werden "position: relative" und "position: absolute" gemeinsam verwendet. Das übergeordnete Element erhält "position: relative", damit sich das untergeordnete Element mit "position: absolute" innerhalb dieses Bereichs positionieren kann. Dadurch lassen sich beispeilsweise Buttons, Icons, Texte oder Bilder an einer ganz bestimmten Stelle platzieren. 
+Oft werden "position: relative" und "position: absolute" gemeinsam verwendet. 
+Das übergeordnete Element erhält "position: relative", 
+damit sich das untergeordnete Element mit "position: absolute" innerhalb dieses Bereichs positionieren kann. 
+Dadurch lassen sich beispeilsweise Buttons, Icons, Texte oder Bilder an einer ganz bestimmten Stelle platzieren. 
 
-4. z-index
+### 4. z-index:
+Die CSS-Eigenschaft z-index legt fest, in welcher Reihenfolge Elemente übereinander dargestellt werden. 
+Sie bestimmt also, welches Element im Vordergrund und welches im Hintergrund angezeigt wird.
+Ein höherer z-index-Wert bedeutet, dass das betreffende Element vor 
+Elementen mit einem niedrigeren Wert angezeigt wird.
+
+Bsp.: (CSS)
+```css
+.box-1{
+    position: absolute;
+    z-index: 1;
+}
+
+.box-2{
+    position: absoulte;
+    z-index: 2; 
+}
+```
+
+In diesem Beispiel überlagern sich die beiden Elemente. 
+Da ".box-2" einen höheren z-index besitzt als ".box-1", wird ".box-2"vor ".box-1" dargestellt.
+
+Die Eigenschaft z-index funktioniert nur bei Elementen, die eine Positionierung besitzen, beispielsweise durch 
+position: relative, position: absolute, position: fixed oder position: sticky.
+
+z-index wird häufig verwendet, um Menüs, Bilder, Texte, Buttons oder andere Elemente
+gezielt im Vordergrund oder Hintergrund anzuzeigen. 
+Wir haben es verwendet um eine Anfahrst-Karte zu designen. 
+Dadurch kann die Darstellung einer Webseite übersichtlicher und benutzerfreundlicher gestaltet werden.
 
 ## erledigt am 30.09.2026:
 - Startseite ausgefüllt, Bilder und Links hinzugefügt
@@ -181,6 +221,8 @@ gemeinsam:
 - Öffnungszeiten hinzugefügt auf Startseite (ausklappbar)
 - Karte hinzugefügt auf Startseite
 - Grid mit Öffnungszeiten und Karte gemacht
+- README ```<details>``` und ```<summary>```, "position: relative und position: absolute" und "z-index" hinzugefügt.
+- README Codeblöcke für codebeispiele ergänzt 
 
 Kim:
 - Grid auf Unsere Tiere hinzugefügt
