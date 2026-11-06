@@ -251,9 +251,10 @@ main a {
     max-width: 100%;
 }
 
+/* Öffnungszeiten */
  .oeffnungszeiten {
     background-color: #f7f4ed;
-    padding: 20px;
+    padding: 0;
  }
 
  .oeffnungszeiten details {
@@ -277,3 +278,107 @@ main a {
  .oeffnungszeiten summary:hover {
     background-color: #88a47c;
  }
+
+
+ /* Karte */
+ .karte {
+    position: relative;
+    height: 320px;
+    background-color: #e4ebd9;
+    border: 3px solid #b8d5ac;
+    overflow: hidden;
+    max-width: 750px;
+ }
+
+ .park {
+    position: absolute;
+    background-color: #b8d5ac;
+    width: 120px;
+    height: 90px;
+    top: 20px;
+    left: 20px;
+}
+
+.strasse-waagerecht {
+    position: absolute;
+    background-color: #f7f4ed;
+    width: 100%;
+    height: 35px;
+    top: 150px;
+}
+
+.strasse-senkrecht {
+    position: absolute;
+    background-color: #f7f4ed;
+    width: 35px;
+    height: 100%;
+    left: 45%;
+}
+
+.haus {
+    position: absolute;
+    background-color: #d9b48f;
+    border: 2px solid #2f3432;
+    width: 45px;
+    height: 35px;
+}
+
+.haus1 {
+    top: 40px;
+    left: 60%;
+}
+
+.haus2 {
+    top: 230px;
+    left: 20%;
+}
+
+.haus3 {
+    top: 230px;
+    left: 75%;
+}
+
+.tierheim-marker {
+    position: absolute;
+    top: 60px;
+    left: 55%;
+    background-color: #f7f4ed;
+    border: 2px solid #3f6654;
+    padding: 10px;
+    z-index: 5;
+}
+
+.tierheim-marker summary {
+    cursor: pointer;
+    font-size: 25px;
+    color: #3f6654;
+}
+
+.tierheim-marker p {
+    font-size: small;
+    margin: 5px;
+    background-color: #f7f4ed;
+}
+
+/* Öffnungszeiten und Standort Nebeneinander */
+
+/* Grid Öffnungszeiten und Standort */
+
+.standort-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "zeiten karte";
+    gap: 25px;
+}
+
+.oeffnungszeiten {
+    grid-area: zeiten;
+}
+
+.standort {
+    grid-area: karte;
+}
+
+.karte {
+    max-width: 100%;
+}

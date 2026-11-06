@@ -141,6 +141,7 @@ Sanne:
 
 gemeinsam:
 - Grid auf index.html eingebaut
+- Öffnungszeiten hinzugefügt auf Startseite (ausklappbar)
 
 Kim:
 - Grid auf Unsere Tiere hinzugefügt
