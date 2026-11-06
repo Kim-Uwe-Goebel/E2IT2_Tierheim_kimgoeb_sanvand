@@ -79,6 +79,22 @@ Inhalt, der ein- und ausgeblendet werden soll.
 Wenn bei der <details> funktion noch ein "open" eingebaut wird: <details open> -ist der
 ein- bzw ausblendbare teil beim betreten der Seite automatisch geöffnet. 
 
+3. position: relative und position: absolute:
+Diese CSS-Eigenschaften werden verwendet, um Elemente gezielt auf einer Webseite zu positionieren. 
+
+Position: relative legt fest, dass sich ein Element weiterhin an seiner normalen Position im Seitenaufbau befindet. 
+Zusätzlich kann es mit den Eigenschaften "top", "right", "bottom" oder "left" von seiner ursprünglichen Position verschoben werden.
+
+Bsp.: (CSS)
+.box{
+    position: relative;
+    left: 20px;
+}
+- Das Element wird dabei 20 Pixel nach rechts verschoben, bleibt aber weiterhin Teil des normalen Seitenlayouts.
+
+position: absolute positionieret ein Element unabhängig vom normalen Seitenaufbau.
+Die Position wird dabei anhand des nächsten übergeordneten Elements bestimmt, 
+das position: "relative", "absolute" oder "fixed" besitzt. 
 
 ## erledigt am 30.09.2026:
 - Startseite ausgefüllt, Bilder und Links hinzugefügt
