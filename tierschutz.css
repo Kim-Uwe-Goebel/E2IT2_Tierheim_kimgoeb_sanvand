@@ -51,6 +51,19 @@
 }
 
 
+.helfen-grid .helfen-bild {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.helfen-bild img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 .qualzucht-bilder {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
