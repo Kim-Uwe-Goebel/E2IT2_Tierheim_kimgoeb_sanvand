@@ -231,3 +231,7 @@ Sanne:
 - Grid auf der Tierschutz&Qualzucht-Seite hinzugefügt
 
 ## Woche 7:
+
+gemeinsam:
+- Flexbox bei "nav" hinzugefügt
+- Flexbox auf Tierschutz&Qualzucht Seite hinzugefügt
