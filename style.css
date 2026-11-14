@@ -84,7 +84,15 @@ button{
     padding: 10px;
     margin: 5px;
     border: 2px solid #2f3432;
+    cursor: pointer;
+}
 
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;    
 }
 
 button:hover{
