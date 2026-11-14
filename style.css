@@ -104,24 +104,44 @@ body{
 
 /* Navigation Startseite */
 
-nav{
+nav {
     background-color: #b7c9a8;
     padding: 10px;
     margin-bottom: 20px;
-    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-nav a {
+
+/* nav a {
     color:#2f3432;
     padding: 8px;
-    margin: 5px;
     text-decoration: none;
 }
 
 nav a:hover {
     background-color: #9eaf90;
     color: white;
+} */
+
+
+nav a {
+    color: #2f3432;
+    background-color: #dce7d3;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
 }
+
+nav a:hover {
+    background-color: #8fa582;
+    color: white;
+}
+
 
 ul{
     padding: 10px 20px;
