@@ -50,20 +50,6 @@
     grid-area: bild;
 }
 
-
-.helfen-grid .helfen-bild {
-    background-color: transparent;
-    border: none;
-    padding: 0;
-}
-
-.helfen-bild img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
 .qualzucht-bilder {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -92,17 +78,24 @@
     object-fit: cover;
 }
 
-.helfen-grid {
+/* .helfen-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
         "adoptieren spenden"
         "ehrenamt patenschaften"
-        "verantwortung bild";
+        "verantwortung verantwortung";
     gap: 25px;
-}
+} */
 
-.adoptieren {
+/*
+.helfen-grid > div {
+    background-color: #e5ebdf;
+    padding: 20px;
+    border: 1px solid #b5c8a6;
+} */
+
+/* .adoptieren {
     grid-area: adoptieren;
 }
 
@@ -124,16 +117,29 @@
 
 .helfen-bild {
     grid-area: bild;
+} */
+
+
+/* Flexbox*/
+
+.helfen-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
 }
 
-.helfen-grid > div {
+.helfen-flex > div {
     background-color: #e5ebdf;
-    padding: 20px;
     border: 1px solid #b5c8a6;
+    border-radius: 10px;
+    padding: 25px;
+    flex: 1 1 300px;
+    text-align: center;
 }
-
-.helfen-bild img {
-    width: 100%;
-    height: 250px;
-    object-fit: contain;
+ 
+.helfen-flex h3 {
+    text-align: center;
+    margin-left: 0;
 }
