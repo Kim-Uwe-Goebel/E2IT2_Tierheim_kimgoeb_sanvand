@@ -229,3 +229,5 @@ Kim:
 
 Sanne:
 - Grid auf der Tierschutz&Qualzucht-Seite hinzugefügt
+
+## Woche 7:
