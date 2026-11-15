@@ -231,3 +231,14 @@ Sanne:
 - Grid auf der Tierschutz&Qualzucht-Seite hinzugefügt
 
 ## Woche 7:
+
+gemeinsam: 
+- Flexbox auf der Hauptseite integriert
+- Kleine anpassungen in der Style.css
+- README angepasst
+
+Kim:
+- Flexbox auf unsere Tiere eingebaut
+
+Sanne:
+- Flexbox auf der Tierschutz&Qualzucht-Seite hinzugefügt
