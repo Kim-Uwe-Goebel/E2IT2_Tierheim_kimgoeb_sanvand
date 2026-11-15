@@ -232,7 +232,6 @@ Sanne:
 
 ## Woche 7:
 
-<<<<<<< HEAD
 gemeinsam: 
 - Flexbox bei "nav" hinzugefügt
 - Kleine anpassungen in der Style.css
@@ -243,6 +242,3 @@ Kim:
 
 Sanne:
 - Flexbox auf der Tierschutz&Qualzucht-Seite hinzugefügt
-=======
-
->>>>>>> 8d0ab82e62bedfd71610b48f9ee6c99bf27167b1
