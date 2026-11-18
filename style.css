@@ -367,3 +367,96 @@ main a {
 .karte {
     max-width: 100%;
 }
+
+/* Handy Ansicht: */
+
+@media (max-width: 40em){
+
+    h1{
+        font-size: 1.8rem;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav a{
+        text-align: center;
+    }
+
+    .ueber-uns-grid{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "text"
+            "bilder";
+    }
+
+    .standort-grid{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "zeiten"
+            "karte";
+    }
+
+    .buttons{
+        flex-direction: column;
+    }
+
+    .buttons button{
+        width: 100%;
+    }
+
+    .karte{
+        height: 260px;
+    }
+
+    .ueber-uns-bilder img{
+        width: 100%;
+        max-width: 220px;
+        height: auto;
+    }
+}
+
+/* Tablet ansicht */
+
+@media (min-width: 40em) and (max-width: 60em){
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.2rem;
+    }
+
+    nav a{
+        padding: 8px 12px;
+        font-size: 1rem;
+    }
+
+    .ueber-uns-grid{
+        gap: 15px;
+    }
+
+    .ueber-uns-bilder img{
+        max-width: 180px;
+        height: auto;
+    }
+
+    .standort-grid{
+        gap: 15px;
+    }
+
+    .karte{
+        height: 280px;
+    }
+
+    .buttons{
+        gap: 10px;
+    }
+
+    button{
+        padding: 8px 12px;
+    }
+}

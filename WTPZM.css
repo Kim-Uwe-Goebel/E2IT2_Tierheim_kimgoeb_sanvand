@@ -1,0 +1,16 @@
+.fragebogen details {
+    background-color: #f7f4ed;
+    border: 2px solid #b7c9a8;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.fragebogen summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #3f6654;
+}
+
+.fragebogen details[open] {
+    background-color: #e5ebdf;
+}

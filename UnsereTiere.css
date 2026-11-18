@@ -74,3 +74,46 @@
     text-align: center;
     padding: 5px;
 }
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px){
+
+    .tierkarte{
+        flex: 1 1 100%;
+    }
+
+    .Verantwortung-Grid{
+        gap: 15px;
+    }
+}
+
+
+/* Smartphone */
+@media (max-width: 768px){
+
+    .tierkarte{
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .tierkarte > img{
+        height: 200px;
+    }
+
+    .tierkarte p{
+        font-size: 1rem;
+    }
+
+    .Verantwortung-Grid{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "anschaffung"
+            "pflege"
+            "kosten"
+            "zuhause";
+    }
+
+    .Verantwortung-Grid > div{
+        padding: 15px;
+    }
+}
