@@ -368,8 +368,6 @@ main a {
     max-width: 100%;
 }
 
-/* Handy Ansicht: */
-
 @media (max-width: 40em){
 
     h1{
@@ -417,8 +415,6 @@ main a {
         height: auto;
     }
 }
-
-/* Tablet ansicht */
 
 @media (min-width: 40em) and (max-width: 60em){
 

@@ -242,3 +242,13 @@ Kim:
 
 Sanne:
 - Flexbox auf der Tierschutz&Qualzucht-Seite hinzugefügt
+
+## Woche 8:
+
+gemeinsam:
+- Responsives design auf Index eingebaut
+
+Kim:
+- Welches Tier passt zu mir erstellt + CSS + Responsives Design
+- Responsives Design auf Unsere Tiere eingebaut
+- Kleine änderungen am UnsereTiere.css code
