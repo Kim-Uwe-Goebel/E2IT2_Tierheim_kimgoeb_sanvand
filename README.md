@@ -247,6 +247,7 @@ Sanne:
 
 gemeinsam:
 - Responsives design auf Index eingebaut
+- Karte Responsive gemacht (Tablet + Phone)
 
 Kim:
 - Welches Tier passt zu mir erstellt + CSS + Responsives Design
