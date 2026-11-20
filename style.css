@@ -397,16 +397,22 @@ main a {
             "karte";
     }
 
+    .karte{
+        height: 350px;
+        width: 100%;
+    }
+
+    .haus2{
+        top: 250px;
+        left: 10%;
+    }
+
     .buttons{
         flex-direction: column;
     }
 
     .buttons button{
         width: 100%;
-    }
-
-    .karte{
-        height: 260px;
     }
 
     .ueber-uns-bilder img{
@@ -435,6 +441,10 @@ main a {
         gap: 1em;
     }
 
+    .karte{
+        height: 250px;
+    }
+
     .ueber-uns-bilder img{
         max-width: 180px;
         height: auto;
@@ -442,10 +452,6 @@ main a {
 
     .standort-grid{
         gap: 15px;
-    }
-
-    .karte{
-        height: 280px;
     }
 
     .buttons{
