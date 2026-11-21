@@ -153,6 +153,22 @@ gezielt im Vordergrund oder Hintergrund anzuzeigen.
 Wir haben es verwendet um eine Anfahrst-Karte zu designen. 
 Dadurch kann die Darstellung einer Webseite übersichtlicher und benutzerfreundlicher gestaltet werden.
 
+### 5. transition und transform:
+Mit der Eigenschaft transition lassen sich Änderungen von css-Werten über einen bestimmten Zeitraum weich animieren.
+Transition legt also fest, wie lange und mit welcher Beschleunigung die Veränderung sichtbar wird,
+während transform besimmt, wie ein Element verändert wird.
+
+BSp.: (CSS)
+```css
+.vermittlung-tier {
+    transition: transform 0.3s;
+}
+
+.vermittlung-tier:hover {
+    transform: translateY(-5px);
+}
+```
+
 ## erledigt am 30.09.2026:
 - Startseite ausgefüllt, Bilder und Links hinzugefügt
 - Auf allen Unterseiten den "zurück" Button hinzugefügt und die Seitenbeschreibungen ergänzt
@@ -256,3 +272,6 @@ Kim:
 
 Sanne:
 - Tierschutz&Qualzucht Seite responsiv gemacht
+- WelchesTierPasstZuMir-Seite ergänzt
+- Interesse an einem Tier - Seite ergänzt
+- transition und transform in README erklärt
