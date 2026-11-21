@@ -50,6 +50,11 @@
     grid-area: bild;
 }
 
+.tierschutz-bild img {
+    max-width: 100%;
+    height: auto;
+}
+
 .qualzucht-bilder {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -143,3 +148,54 @@
     text-align: center;
     margin-left: 0;
 }
+
+/* Responsives Design Tablet */
+
+@media (min-width: 40em) and (max-width: 60em) {
+
+    .tierschutz-info {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "ueberschrift"
+            "text"
+            "bild";
+    }
+
+    .qualzucht-bilder {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "bulldogge dackel"
+            "katze katze";
+    }
+}
+
+
+/* Responsives Design Smartphone */
+
+@media (max-width: 40em) {
+
+    .tierschutz-info {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "ueberschrift"
+            "text"
+            "bild";
+    }
+
+    .qualzucht-bilder {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "bulldogge"
+            "dackel"
+            "katze";
+    }
+
+    .helfen-flex {
+        flex-direction: column;
+    }
+
+    .helfen-flex > div {
+        flex: 1 1 auto;
+    }
+}
+
