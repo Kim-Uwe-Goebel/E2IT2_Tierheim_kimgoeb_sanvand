@@ -168,6 +168,7 @@ BSp.: (CSS)
     transform: translateY(-5px);
 }
 ```
+translateY: Bewegt das Element entlang der Y-Achse. Negative Werte verschieben nach oben, positive Werte nach unten.
 
 ## erledigt am 30.09.2026:
 - Startseite ausgefüllt, Bilder und Links hinzugefügt
