@@ -247,6 +247,7 @@ main a {
  .oeffnungszeiten details {
     background-color: #e5e5e5;
     border: 2px solid #b7c9a8;
+    border-radius: 10px;
     padding: 15px;
     margin-bottom: 15px;
  }
@@ -272,7 +273,8 @@ main a {
     position: relative;
     height: 320px;
     background-color: #e4ebd9;
-    border: 3px solid #b8d5ac;
+    border: 3px solid #b7c9a8;
+    border-radius: 10px;
     overflow: hidden;
     max-width: 750px;
  }

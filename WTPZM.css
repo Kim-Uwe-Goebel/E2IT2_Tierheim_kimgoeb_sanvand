@@ -102,6 +102,21 @@
     }
 
 }
+
+@media (min-width: 40em) and (max-width: 60em) {
+    .tierkarten {
+        grid-template-columns: 1fr;
+    }
+
+    .tierkarte {
+        padding: 20px;
+    }
+
+    .fragebogen details {
+        padding: 15px;
+    }
+}
+
 .tierberater-einleitung {
     text-align: center;
     padding: 30px;
