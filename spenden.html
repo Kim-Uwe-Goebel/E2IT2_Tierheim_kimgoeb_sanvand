@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spenden</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="spenden.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <header>
+        <h1>Kleine Spende, große Wirkung</h1>
+    </header>
+    
+    <nav>
+        <a href="UnsereTiere.html">Zu unseren Tieren</a>
+        <a href="WelchesTierPasstZuMir.html">Welches Tier passt zu mir?</a>
+        <a href="Interessiert.html">Interesse an einem Tier? Klicke hier!</a>
+        <a href="Tierschutz&Qualzucht.html">Informationen zu Tierschutz und Qualzucht</a>
+        <a href="spenden.html" class="spenden">Spenden für Tierheime in deiner Nähe</a>
+    </nav>
+
+    <main>
+        <section class="spenden-einleitung">
+            <p>Gemeinsam schenken wir Tieren eine bessere Zukunft.</p>
+        </section>
+    
+        <div class="spenden-container">
+            <div class="box-links">
+                <h2>Deine Spende kommt an!</h2>
+                <p>Mit deiner Spende Unterstützt du unsere Tiere bei:</p>
+                <ul>
+                    <li>Futter und Zubehör</li>
+                    <li>Tierarztkosten</li>
+                    <li>Pflege und Unterbringung</li>
+                </ul>
+                <p class="Druck">Jeder Euro zählt!</p>
+            </div>
+
+            <div class="box-rechts">
+                <h2>Deine Spende</h2>
+                <form>
+                    
+                    <!-- Formular Häufigkeit -->
+                    <h3>Wie oft möchtest du spenden?</h3>
+                    <div class="spenden-häufigkeit">
+                        <input type="radio" id="einmalig" name="häufigkeit" value="einmalig" checked>
+                        <label for="einmalig">Einmalig</label>
+                        <input type="radio" id="monatlich" name="häufigkeit" value="monatlich">
+                        <label for="monatlich">Monatlich</label>
+                    </div>
+                    
+                    <!-- Formular Spendenbetrag -->
+                    <h3>Wähle deinen Spendenbetrag</h3>
+                    <div class="spenden-betrag">
+                        <input type="radio" id="betrag10" name="betrag" value="10" checked>
+                        <label for="betrag10">10€</label>
+                        <input type="radio" id="betrag25" name="betrag" value="25">
+                        <label for="betrag25">25€</label>
+                        <input type="radio" id="betrag50" name="betrag" value="50">
+                        <label for="betrag50">50€</label>
+                        <input type="radio" id="betrag100" name="betrag" value="100">
+                        <label for="betrag100">100€</label>
+                    </div>
+
+                    <!-- Eigener Betrag -->
+                    <div class="eigener-betrag">
+                        <input type="radio" id="eigener-betrag" name="betrag" value="individuell">
+                        <label for="eigener-betrag">Eigener Betrag</label>
+                        <input type="number" name="individueller-betrag" aria-label="eigener Betrag (in €)" placeholder="Betrag in €" min="1">
+                    </div>
+                </form>
+            </div>
+        </div>
+    
+    </main>
+
+    <nav>
+        <a href="index.html">Zurück zur Startseite</a>
+    </nav>
+
+    <footer>
+        <p>2026 Tierheim Sankim | Datenschutz | Impressum</p>
+    </footer>
+
+</body>
+</html>

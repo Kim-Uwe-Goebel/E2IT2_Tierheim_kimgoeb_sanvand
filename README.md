@@ -277,3 +277,11 @@ Sanne:
 - WelchesTierPasstZuMir-Seite ergänzt
 - Interesse an einem Tier - Seite ergänzt
 - transition und transform in README erklärt
+
+## Woche 9: 
+
+gemeinsam: 
+- Neuer Button auf den Navs ergänzt
+- Neue Seite Spenden.html hinzugefügt 
+- Gestaltung der Spenden Seite
+- Formular auf Spenden.html hinzugefügt

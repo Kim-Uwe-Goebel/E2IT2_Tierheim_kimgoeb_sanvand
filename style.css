@@ -143,11 +143,25 @@ nav a {
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 8px;
+    transition: 0.3s;
 }
 
 nav a:hover {
     background-color: #8fa582;
     color: white;
+}
+
+nav a.spenden{
+    background-color: #a84b43;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a.spenden:hover{
+    background-color: #84362f;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -463,4 +477,8 @@ main a {
     button{
         padding: 8px 12px;
     }
+}
+
+.spenden {
+
 }
