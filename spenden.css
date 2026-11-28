@@ -57,3 +57,51 @@ li:nth-child(odd){
     font-weight: bold;
     font-style: italic;
 }
+
+/* Responsives Design */
+
+@media (max-width: 40em) {
+
+    .spenden-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin: 20px auto;
+    }
+
+    .box-links,
+    .box-rechts {
+        padding: 15px;
+    }
+
+    .spenden-einleitung {
+        font-size: 1rem;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .spenden-container h2 {
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (min-width: 40em) and (max-width: 60em) {
+
+    .spenden-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin: 30px auto;
+    }
+
+    .box-links,
+    .box-rechts {
+        padding: 20px;
+    }
+
+    .spenden-einleitung {
+        font-size: 1.2rem;
+        padding: 20px;
+        margin-bottom: 25px;
+    }
+
+}
